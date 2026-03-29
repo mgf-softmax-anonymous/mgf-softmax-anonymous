@@ -1,4 +1,5 @@
-## Hi there 👋
+## MGF-softmax-anonymous
+Hello, this is an anonymous GitHub repository created to share images during the review process of the MGF-softmax paper.
 
 <!--
 **mgf-softmax-anonymous/mgf-softmax-anonymous** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
