@@ -1,6 +1,6 @@
-**Table A.** End-to-end FHE evaluation results on 30 randomly sampled ImageNet-1K images using DeiT-Tiny. ImageNet_id corresponds to the filename 'ILSVRC2012_val_{ImageNet_id}.JPEG'. Here, $Z_e = \Vert p_{\text{plain}} - p_{\text{FHE}}\Vert\_\infty$ denotes the maximum posterior deviation, and $Z_m = p_{\text{plain}}^{(1)} - p_{\text{plain}}^{(2)}$ represents the top-1/top-2 posterior margin. For all 30 samples, the final predicted class was identical between the plain and FHE models, i.e., the argmax of the final output matched for every image.
+**Table A.** End-to-end FHE evaluation results on 30 randomly sampled ImageNet-1K images using DeiT-Tiny. ImageNet_id corresponds to the filename 'ILSVRC2012_val_{ImageNet_id}.JPEG'. For all 30 samples, the final predicted class was identical between the plain and FHE models, i.e., the argmax of the final output matched for every image.
 
-| ImageNet_id | $Z_e$ | $Z_m$ | $Z_e/Z_m$ | plain_argmax | fhe_argmax |
+| ImageNet_id | $Z_e = \Vert p_{\text{plain}} - p_{\text{FHE}}\Vert\_\infty$  | $Z_m = p_{\text{plain}}^{(1)} - p_{\text{plain}}^{(2)}$ | $Z_e/Z_m$ | plain_argmax | fhe_argmax |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | {00002138} | 6.13e-04 | 6.15e-01 | 9.96e-04 | 0 | 0 |
 | {00002872} | 3.70e-07 | 9.99e-01 | 3.70e-07 | 20 | 20 |
