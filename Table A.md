@@ -1,8 +1,8 @@
-**Table A.** End-to-end FHE evaluation results on 30 randomly sampled ImageNet-1K images using DeiT-Tiny. ImageNet_id corresponds to the filename 'ILSVRC2012_val_{ImageNet_id}.JPEG'.
+**Table A.** End-to-end FHE evaluation results on 30 randomly sampled ImageNet-1K images using DeiT-Tiny. ImageNet_id corresponds to the filename 'ILSVRC2012_val_{ImageNet_id}.JPEG'. For all 30 samples, the final predicted class was identical between the plain and FHE models, i.e., the argmax of the final output matched for every image.
 
-| ImageNet_id | Z_e | Z_m | Z_e/Z_m | plain_argmax | fhe_argmax |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| {MAX} | 6.13e-04 | 9.99e-01 | 6.55e-03 |  |  |
+| ImageNet_id | $Z_e$ | $Z_m$ | $Z_e/Z_m$ | plain_argmax | fhe_argmax |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **MAX** | 6.13e-04 | 9.99e-01 | 6.55e-03 |  |  |
 | {00002138} | 6.13e-04 | 6.15e-01 | 9.96e-04 | 0 | 0 |
 | {00002872} | 3.70e-07 | 9.99e-01 | 3.70e-07 | 20 | 20 |
 | {00001942} | 4.56e-04 | 6.96e-02 | 6.55e-03 | 40 | 40 |
