@@ -1,4 +1,4 @@
-**Table A. End-to-end FHE evaluation results on 30 randomly sampled ImageNet-1K images using DeiT-Tiny. ImageNet_id corresponds to the filename 'ILSVRC2012_val_{ImageNet_id}.JPEG'.
+Table A. End-to-end FHE evaluation results on 30 randomly sampled ImageNet-1K images using DeiT-Tiny. ImageNet_id corresponds to the filename 'ILSVRC2012_val_{ImageNet_id}.JPEG'.
 
 | ImageNet_id | $Z_e$ | $Z_m$ | $Z_e$/$Z_m$ |
 | --- | ---: | ---: | ---: |
